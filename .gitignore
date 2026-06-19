@@ -1,0 +1,14 @@
+# C/C++ executable files
+*.exe
+
+# Java compiled files
+*.class
+
+# VS Code settings
+.vscode/
+
+# VS Code temporary files
+tempCodeRunnerFile.*
+
+# Log files
+*.log
