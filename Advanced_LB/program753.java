@@ -1,0 +1,27 @@
+//Input: india is my country i live in india
+//output: bharat is my country i live in bharat
+
+import java.util.*;
+
+class program752
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        int Frequency[]=new int[26];
+
+        //97 98 99 100
+        //0 1 2 3
+        for(int i=0;i<Frequency.length;i++){
+            if(Arr[i]>='a' && Arr[i]<='z'){
+                Frequency[(int)Arr[i]-97]++;
+            }
+        }
+        System.out.println("Frequency of each letter is:");
+        for(int i=0;i<Frequency.length;i++){
+            System.out.println((char)(Frequency[i]));
+        }
+
+    }
+}
